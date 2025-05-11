@@ -7,7 +7,7 @@ A simple KMP client for NASA Open API.
 - On click on an image leads to Media Details screen, allowing user to zoom and save the media to the local database;
 - Saved Media screen displaying user's saved media;
 
-(home screen.jpg?raw=true "Optional Title")(media search.jpg?raw=true "Media Search")(media details.jpg?raw=true "Media Details")
+![Home Screen](home_screen.png?raw=true "Home Screen")![Media Search](media_search.png?raw=true "Media Search")![Media Details](media_details.png?raw=true "Media Details")
 
 ## Generating signed APK
 From Android Studio:
