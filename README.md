@@ -1,11 +1,25 @@
-This is a Kotlin Multiplatform project targeting Android, Desktop.
+## AstroArchive
+A simple KMP client for NASA Open API.
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+# Main features:
+- Home screen displaying current day's Astronomy Picture of The Day (APOD);
+- Search screen allowing user to search for media from NASA image/video gallery;
+- On click on an image leads to Media Details screen, allowing user to zoom and save the media to the local database;
+- Saved Media screen displaying user's saved media;
 
+(home screen.jpg?raw=true "Optional Title")(media search.jpg?raw=true "Media Search")(media details.jpg?raw=true "Media Details")
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Generating signed APK
+From Android Studio:
+1. ***Build*** menu
+2. ***Generate Signed APK...***
+
+# Things to be added in the future:
+- Home screen: display details of APOD;
+- Search screen: infinite scroll;
+- Media Details screen: title/description of the item in a bottom navigation drawer;
+- A screen to display all previous APOD in a custom calendar view;
+- Adding values to resources;
+- Theming improvements;
+- Fix desktop version :);
+- Test coverage.
